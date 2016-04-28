@@ -1,0 +1,62 @@
+<resources>
+    <!-- global strings-->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="mail">Mail</string>
+    <string name="description">Description</string>
+
+    <!--activity or screen names-->
+    <string name="app_name">Tracker</string>
+    <string name="title_activity_record">Record</string>
+    <string name="title_activity_user_profile">Profile</string>
+    <string name="title_activity_multi_select">Contacts</string>
+    <string name="title_activity_test">Test Activity</string>
+    <string name="title_activity_my_locations">My Locations</string>
+    <string name="title_activity_record_history">Record History</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_Settings">Settings</string>
+
+    <!--Strings for setting activity-->
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <!-- URL -->
+    <string name="settings_base_url_title">Service Provider url</string>
+    <string name="settings_base_url_summary">This is for setting url when testing application </string>
+    <string name="settings_default_url_value">"http://192.168.1.39:8080/tracker/service/</string>
+    <string name="settings_default_url_key">defaultUrl</string>
+    <string name="settings_default_url_title">Service URL</string>
+    <!-- For scheduler -->
+    <string name="settings_time_interval_sync_title">Sync interval</string>
+    <string name="settings_time_interval_sync_summary">Time for transferring data to backend. This is for testing the application</string>
+    <string name="settings_time_interval_sync_key">SyncInterval</string>
+    <string name="settings_time_interval_sync_default_value">5</string>
+    <!-- Time unit for scheduling  -->
+    <string name="settings_time_unit_title">Time Unit</string>
+    <string name="settings_time_unit_summary">Select time unit for update interval for data transfer</string>
+    <string name="settings_time_unit_key">TimeUnit</string>
+    <string name="settings_time_unit_default_value">Second</string>
+    <!-- GPS minimum displacement in meter for location update -->
+    <string name="settings_location_update_distance_interval_title">Distance</string>
+    <string name="settings_location_update_distance_interval_summary">Minimum distance displacement for location update </string>
+    <string name="settings_location_update_distance_interval_key">MinDisplacement</string>
+    <string name="settings_location_update_distance_interval_default_value">2</string>
+    <!-- GPS minimum time between location update -->
+    <string name="settings_location_update_time_interval_title">Time interval</string>
+    <string name="settings_location_update_time_interval_summary">Minimum time interval between location update in second</string>
+    <string name="settings_location_update_time_interval_key">updateLocationTimeInterval</string>
+    <string name="settings_location_update_time_interval_default_value">5</string>
+    <!-- Drawing on map marker or line -->
+    <string name="settings_marker_option_title">Select Marker or Line</string>
+    <string name="settings_marker_option_summary">Show your locations as marker or line on the map</string>
+    <string name="settings_marker_option_key">MarkerOrLine</string>
+    <string name="settings_marker_option_default_value">Marker</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

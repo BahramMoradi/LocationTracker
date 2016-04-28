@@ -1,0 +1,14 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-02-2016, 11:01:22
+    Author     : Bahram
+*/
+h1{ background: #33ccff;text-align: center;padding: 15px; border-radius: 25px}
+div{background:#e8f1f7;padding:15px;border-radius: 25px}
+div h2{background: #f8faf9;text-align: center;padding: 15px; border-radius: 25px}
+table{border: 1px solid black}
+td{ border: 1px solid black;padding: 5px}

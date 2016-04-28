@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/action_settings"
+    >
+        <EditTextPreference
+            android:defaultValue="@string/settings_default_url_value"
+            android:key="@string/settings_default_url_key"
+            android:title="@string/settings_default_url_title"
+            android:summary="@string/settings_base_url_summary"/>
+        <EditTextPreference
+            android:defaultValue="@string/settings_time_interval_sync_default_value"
+            android:key="@string/settings_time_interval_sync_key"
+            android:title="@string/settings_time_interval_sync_title"
+            android:summary="@string/settings_time_interval_sync_summary"/>
+        <ListPreference
+            android:entries="@array/TimeUnit"
+            android:entryValues="@array/TimeUnit"
+            android:defaultValue="@string/settings_time_unit_default_value"
+            android:key="@string/settings_time_unit_key"
+            android:title="@string/settings_time_unit_title"
+            android:summary="@string/settings_time_unit_summary"/>
+
+            <EditTextPreference
+                android:title="@string/settings_location_update_distance_interval_title"
+                android:summary="@string/settings_location_update_distance_interval_summary"
+                android:key="@string/settings_location_update_distance_interval_key"
+                android:defaultValue="@string/settings_location_update_distance_interval_default_value"
+                />
+            <EditTextPreference
+                android:title="@string/settings_location_update_time_interval_title"
+                android:summary="@string/settings_location_update_time_interval_summary"
+                android:defaultValue="@string/settings_location_update_time_interval_default_value"
+                android:key="@string/settings_location_update_time_interval_key"
+                />
+
+            <ListPreference
+                android:entries="@array/MarkerOptions"
+                android:entryValues="@array/MarkerOptions"
+                android:defaultValue="@string/settings_marker_option_default_value"
+                android:key="@string/settings_marker_option_key"
+                android:title="@string/settings_marker_option_title"
+                android:summary="@string/settings_marker_option_summary"/>
+
+
+
+
+</PreferenceScreen>

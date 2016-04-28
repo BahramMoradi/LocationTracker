@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_id": "location-tracker-1223",
+    "project_number": "137698365054",
+    "name": "Location Tracker"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137698365054:android:7d0986f8bc77cc4d",
+        "client_id": "android:dk.dtu.lbs.activities",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "dk.dtu.lbs.activities"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

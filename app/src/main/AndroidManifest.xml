@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dk.dtu.lbs.activities" >
+
+    <uses-sdk
+        android:maxSdkVersion="23"
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission android:name="dk.dtu.lbs.activities.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="dk.dtu.lbs.activities.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_tracker"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecordLocationActivity"
+            android:label="@string/title_activity_record" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name=".MyLocationsActivity"
+            android:label="@string/title_activity_my_locations" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/action_settings" >
+        </activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".RecordHistoryActivity"
+            android:label="@string/title_activity_record_history" >
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/action_help" >
+        </activity>
+
+        <service
+            android:name="dk.dtu.lbs.services.RecordLocationService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name="dk.dtu.lbs.services.DataTransferService"
+            android:exported="false" >
+        </service>
+
+        <receiver
+            android:name="dk.dtu.lbs.receivers.GlobalNetworkStateMonitor"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

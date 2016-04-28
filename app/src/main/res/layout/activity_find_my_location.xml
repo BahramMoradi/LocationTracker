@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:id="@+id/findMayLocationMap"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="#00000000"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/myLocations"
+            android:background="@mipmap/ic_map"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/findMylocation"
+            android:background="@mipmap/ic_find"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteAllLocations"
+            android:background="@mipmap/ic_delete"
+            />
+        <ImageButton
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:id="@+id/deleteInTimeInterval"
+            android:background="@mipmap/ic_delete_interval"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>
+
+

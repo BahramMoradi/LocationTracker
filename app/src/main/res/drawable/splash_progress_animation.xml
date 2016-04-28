@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_progress_1" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_2" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_3" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_4" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_5" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_6" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_7" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_8" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_9" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_8" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_7" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_6" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_5" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_4" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_3" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_2" android:duration="130"></item>
+    <item android:drawable="@mipmap/ic_progress_1" android:duration="130"></item>
+
+</animation-list>

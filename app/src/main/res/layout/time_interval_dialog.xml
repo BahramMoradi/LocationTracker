@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        style="@style/dateTimeTitleStyle"
+        android:text="Select date time interval "
+        android:id="@+id/dateTimeTitle"
+
+
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setFromBT"
+        android:text="From : "
+        android:drawableLeft="@mipmap/ic_date_time"
+        android:textAllCaps="false"
+        android:layout_margin="2dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To : "
+        android:id="@+id/setToBT"
+        android:drawableLeft="@mipmap/ic_date_time"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/okSetTimeBT"
+        android:textAllCaps="false"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancelSetTimeBT"
+        android:textAllCaps="false"
+        android:layout_margin="2dp"/>
+
+</LinearLayout>

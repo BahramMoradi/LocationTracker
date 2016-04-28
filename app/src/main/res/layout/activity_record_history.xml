@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dk.dtu.lbs.activities.RecordHistoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:paddingLeft="30dp"
+            android:text="@string/from"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:id="@+id/recordHistoryFromTV" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:paddingLeft="30dp"
+            android:text="@string/to"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:id="@+id/recordHistoryToTV" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#e8edea"
+        android:layout_weight="1.0"
+        android:id="@+id/record_history_list" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@mipmap/ic_delete"
+        android:text="@string/delete"
+        android:id="@+id/recordHistoryDeleteBT" />
+</LinearLayout>

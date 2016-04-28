@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/ic_no_network"
+        android:id="@+id/dialogIcon"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogMessageTV"
+        android:text=""
+        android:layout_alignBottom="@+id/dialogIcon"
+        android:layout_toRightOf="@+id/dialogIcon"
+        android:layout_toEndOf="@+id/dialogIcon"
+        android:layout_alignParentTop="true" />
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:id="@+id/cancelDialogBT"
+            android:layout_alignTop="@+id/okDialogBT"
+            android:layout_toRightOf="@+id/dialogIcon"
+            android:layout_marginLeft="63dp"
+            android:layout_marginStart="63dp" />
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textAllCaps="false"
+            android:id="@+id/okDialogBT"
+            android:layout_below="@+id/dialogMessageTV"
+            android:layout_toRightOf="@+id/cancelDialogBT"
+            android:layout_toEndOf="@+id/cancelDialogBT" />
+
+</RelativeLayout>
