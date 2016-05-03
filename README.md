@@ -15,8 +15,10 @@ The application has a local database and a very simple scheduler.
 <li>User can delete all or part of recoreded location based on time interval</li>
 
 </ol>
-<h2> APIs</h2>
+<h2> Tools and APIs</h2>
 <ul>
+<li>Android Studio</li>
+<li>Gradle</li>
 <li>Google Maps</li>
 <li>Google Location API</li>
 <li>Realm ( removed in favour of SQLite)</li>
