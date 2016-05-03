@@ -10,8 +10,10 @@ The application has a local database and a very simple scheduler.
 4. Data transfer is based on simple scheduleing
 5. User can fetch all or a part of its recorded location from backend and show it the google map in the application.
 6. User can delete all or part of recoreded location based on time interval.
-## APIs
-* Google Maps
-* Google Location API
-* Realm ( removed in favour of SQLite)
-* Retrofite (Rest client)
+<h2> APIs</h2>
+<ul>
+<li>Google Maps</li>
+<li>Google Location API</li>
+<li>Realm ( removed in favour of SQLite)</li>
+<li>Retrofite (Rest client)</li>
+</ul>
